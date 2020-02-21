@@ -40,6 +40,7 @@ public class PersonBiz {
 	}
 
 	public void addPerson(Person person) {
+		System.out.println("第一次修改");
 		personDao.savePerson(person);
 	}
 
